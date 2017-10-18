@@ -1,4 +1,4 @@
-package algorithm.sequencing;
+package algorithm.tree;
 /*二叉查找树(Binary Search Tree)，又被称为二叉搜索树。
         它是特殊的二叉树：对于二叉树，假设x为二叉树中的任意一个结点，
         x节点包含关键字key，节点x的key值记为key[x]。如果y是x的左子树中的一个结点，
