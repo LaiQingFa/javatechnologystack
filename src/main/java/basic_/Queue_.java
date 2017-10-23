@@ -23,6 +23,20 @@ remove()方法直接删除队头的元素
 peek()方法直接取出队头的元素，并不删除
 
 
+适用阻塞队列的好处：多线程操作共同的队列时不需要额外的同步，另外就是队列会自动平衡负载，即那边（生产与消费两边）处理快了就会被阻塞掉，从而减少两边的处理速度差距。
+当许多线程共享访问一个公共 collection 时，ConcurrentLinkedQueue 是一个恰当的选择。
+LinkedBlockingQueue 多用于任务队列
+ConcurrentLinkedQueue  多用于消息队列
+
+多个生产者，对于LBQ性能还算可以接受；但是多个消费者就不行了mainLoop需要一个timeout的机制，否则空转，cpu会飙升的。LBQ正好提供了timeout的接口，更方便使用
+如果CLQ，那么我需要收到处理sleep
+
+单生产者，单消费者  用 LinkedBlockingqueue
+多生产者，单消费者   用 LinkedBlockingqueue
+单生产者 ，多消费者   用 ConcurrentLinkedQueue ConcurrentLinkedQueue  LinkedBlockingqueue
+多生产者 ，多消费者   用 ConcurrentLinkedQueue
+
+http://blog.csdn.net/jiangguilong2000/article/details/11617529
 
         LinkedBlockingQueue内部使用ReentrantLock实现插入锁(putLock)和取出锁(takeLock)。putLock上的条件变量是notFull，即可以用notFull唤醒阻塞在putLock上的线程。takeLock上的条件变量是notEmtpy，即可用notEmpty唤醒阻塞在takeLock上的线程。
 
