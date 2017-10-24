@@ -8,37 +8,6 @@ public class Make_Thread_Ways {
 }
 
 
-/*方法2、继承Thread类创建线程类
-        （1）定义Thread类的子类，并重写该类的run方法，该run方法的方法体就代表了线程要完成的任务。因此把run()方法称为执行体。
-        （2）创建Thread子类的实例，即创建了线程对象。
-        （3）调用线程对象的start()方法来启动该线程。*/
-
-/*public class FirstThreadTest extends Thread{
-    int i = 0;
-    //重写run方法，run方法的方法体就是现场执行体
-    public void run()
-    {
-        for(;i<100;i++){
-            System.out.println(getName()+"  "+i);
-
-        }
-    }
-    public static void main(String[] args)
-    {
-        for(int i = 0;i< 100;i++)
-        {
-            System.out.println(Thread.currentThread().getName()+"  : "+i);
-            if(i==20)
-            {
-                new FirstThreadTest().start();
-                new FirstThreadTest().start();
-            }
-        }
-    }
-
-}*/
-
-
 /*
  * 一、创建执行线程的方式一：实现 Callable 接口。 相较于实现 Runnable 接口的方式，方法可以有返回值，并且可以抛出异常。
  * 二、执行 Callable 方式，需要 FutureTask 实现类的支持，用于接收运算结果。  FutureTask 是  Future 接口的实现类
@@ -88,3 +57,69 @@ class ThreadDemo implements Callable<Integer> {
     }
 
 }
+
+
+
+/*方法2、继承Thread类创建线程类
+        （1）定义Thread类的子类，并重写该类的run方法，该run方法的方法体就代表了线程要完成的任务。因此把run()方法称为执行体。
+        （2）创建Thread子类的实例，即创建了线程对象。
+        （3）调用线程对象的start()方法来启动该线程。*/
+
+/*public class FirstThreadTest extends Thread{
+    int i = 0;
+    //重写run方法，run方法的方法体就是现场执行体
+    public void run()
+    {
+        for(;i<100;i++){
+            System.out.println(getName()+"  "+i);
+
+        }
+    }
+    public static void main(String[] args)
+    {
+        for(int i = 0;i< 100;i++)
+        {
+            System.out.println(Thread.currentThread().getName()+"  : "+i);
+            if(i==20)
+            {
+                new FirstThreadTest().start();
+                new FirstThreadTest().start();
+            }
+        }
+    }
+
+}*/
+
+
+/*3、通过Runnable接口创建线程类
+        （1）定义runnable接口的实现类，并重写该接口的run()方法，该run()方法的方法体同样是该线程的线程执行体。
+        （2）创建 Runnable实现类的实例，并依此实例作为Thread的target来创建Thread对象，该Thread对象才是真正的线程对象。
+        （3）调用线程对象的start()方法来启动该线程。*/
+/*
+public class RunnableThreadTest implements Runnable
+{
+
+    private int i;
+    public void run()
+    {
+        for(i = 0;i <100;i++)
+        {
+            System.out.println(Thread.currentThread().getName()+" "+i);
+        }
+    }
+    public static void main(String[] args)
+    {
+        for(int i = 0;i < 100;i++)
+        {
+            System.out.println(Thread.currentThread().getName()+" "+i);
+            if(i==20)
+            {
+                RunnableThreadTest rtt = new RunnableThreadTest();
+                new Thread(rtt,"新线程1").start();
+                new Thread(rtt,"新线程2").start();
+            }
+        }
+
+    }
+
+}  */
