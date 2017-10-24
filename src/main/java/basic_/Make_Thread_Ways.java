@@ -3,7 +3,7 @@ package basic_;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
-
+/*http://blog.csdn.net/longshengguoji/article/details/41126119*/
 public class Make_Thread_Ways {
 }
 
