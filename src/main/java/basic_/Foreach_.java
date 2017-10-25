@@ -12,7 +12,7 @@ public class Foreach_ {
 
     Java将对于数组的foreach循环转换为对于这个数组每一个的循环引用。
 
-    
+
 
     http://www.cnblogs.com/slwenyi/p/6393366.html
 
