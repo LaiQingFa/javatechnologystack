@@ -1,7 +1,7 @@
 package basic_;
 
 /**
- * string的intern方法的内部细节
+ * string的intern方法的内部细节 jdk1.6和jdk1.7的变化以及内部cpp代码StringTable的实现
  */
 public class String_intern {
 
