@@ -7,6 +7,9 @@ import java.io.IOException;
 /**
  * jna  测试  http://www.cnblogs.com/lanxuezaipiao/p/3635556.html
  *
+ * http://hao.jobbole.com/jna/
+ * https://github.com/java-native-access/jna
+ *
  * JNA使用一个小型的JNI库插桩程序来动态调用本地代码
  *
  * JNA(Java Native Access)是一个开源的Java框架，是Sun公司推出的一种调用本地方法的技术，
