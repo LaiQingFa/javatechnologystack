@@ -9,6 +9,8 @@ public class Reflection {
 http://www.cnblogs.com/bojuetech/p/5896551.html
 一个类在 JVM 中只会有一个Class实例
 
+泛型
+http://www.cnblogs.com/lwbqqyumidi/p/3837629.html
     */
 
 }
