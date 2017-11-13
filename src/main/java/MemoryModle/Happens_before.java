@@ -15,6 +15,8 @@ public class Happens_before {
     垃圾回收算法
     https://www.cnblogs.com/huajiezh/p/5769255.html
 
+    JAVA常用的垃圾回收器
+    http://blog.csdn.net/liudezhicsdn/article/details/51057578
 
     */
 }
