@@ -21,7 +21,8 @@ public class Happens_before {
     常用工具: jps、jstat、jmap、jstack、图形工具jConsole、Visual VM、MAT
     http://blog.csdn.net/fcly2013/article/details/19484859
 
-    
+    GC相关的参数
+    https://www.cnblogs.com/f-zhao/p/6160656.html
 
     */
 }
