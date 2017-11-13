@@ -18,5 +18,10 @@ public class Happens_before {
     JAVA常用的垃圾回收器
     http://blog.csdn.net/liudezhicsdn/article/details/51057578
 
+    常用工具: jps、jstat、jmap、jstack、图形工具jConsole、Visual VM、MAT
+    http://blog.csdn.net/fcly2013/article/details/19484859
+
+    
+
     */
 }
