@@ -12,5 +12,9 @@ public class Happens_before {
     Java 8的内存分代改进
     http://blog.csdn.net/chlu113/article/details/51890469
 
+    垃圾回收算法
+    https://www.cnblogs.com/huajiezh/p/5769255.html
+
+
     */
 }
