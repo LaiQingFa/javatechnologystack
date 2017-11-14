@@ -20,6 +20,8 @@ public class Synchronized_volatile {
 https://www.cnblogs.com/exceptioneye/p/5373498.html
 
 
+    同步器AQS的实现原理
+    https://www.cnblogs.com/200911/p/6031350.html
     */
 
 
