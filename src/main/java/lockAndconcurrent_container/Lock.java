@@ -25,7 +25,10 @@ public class Lock {
     是其内部类ReadLock和WriteLock实现了Lock的接口），
     其他都是通过我们前面说的一些工具类实现了线程的阻塞。
 
-
+    LockSupport
+    http://blog.csdn.net/congduan/article/details/48710129
+    J.U.C框架中有一个叫做LockSupport的类，可以精准地阻塞和唤醒特定的线程，并作为其他同步类的原语。
+    LockSupport包含一个park(Object blocker)和unpark(Object blocker)方法，分别用于阻塞和唤醒。
 
 
     */
