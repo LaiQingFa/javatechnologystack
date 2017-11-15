@@ -11,6 +11,10 @@ public class Collection_all {
 
 
 
+    HashMap多线程并发问题
+    https://my.oschina.net/xianggao/blog/393990?fromerr=OPResiVf
+
+
     */
 
 }
