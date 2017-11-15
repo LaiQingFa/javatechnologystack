@@ -16,6 +16,9 @@ public class ThreadPoor__ {
                 4、任务队列（taskQueue）：用于存放没有处理的任务。提供一种缓冲机制。
 
 
+    各种线程池的区别
+    https://www.cnblogs.com/aaron911/p/6213808.html
+    newCachedThreadPool、newFixedThreadPool、newSingleThreadExecutor、newScheduleThreadPool
 
 
 
