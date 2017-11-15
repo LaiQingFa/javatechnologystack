@@ -31,6 +31,13 @@ public class Lock {
     LockSupport包含一个park(Object blocker)和unpark(Object blocker)方法，分别用于阻塞和唤醒。
 
 
+     Condition接口及其实现原理
+    http://blog.csdn.net/fuyuwei2015/article/details/72602182
+    Condition接口提供了类似Object的监视器方法，与Lock配合可以实现等待/通知模式，
+    但是这两者在使用方式以及功能特性上还是有差别的
+
+
+
     */
 
 }
