@@ -16,6 +16,17 @@ public class Lock {
 
 
 
+    读写锁 ReentrantReadWriteLock的实现原理
+    http://blog.csdn.net/yanyan19880509/article/details/52435135
+    https://www.cnblogs.com/zhangxsh/p/3567869.html
+    ReentrantReadWriteLock的锁策略有两种，分为公平策略和非公平策略
+    真正的实现Lock接口的类就三个，ReentrantLock和ReentrantReadWriteLock的两个内部类
+    （ReentrantReadWriteLock实现了ReadWriteLock接口，并没有实现Lock接口，
+    是其内部类ReadLock和WriteLock实现了Lock的接口），
+    其他都是通过我们前面说的一些工具类实现了线程的阻塞。
+
+
+
 
     */
 
