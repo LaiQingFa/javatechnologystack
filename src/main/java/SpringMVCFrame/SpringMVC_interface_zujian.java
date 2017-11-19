@@ -21,6 +21,12 @@ DispatcherServlet - 组件 —— DispatcherServlet对组件进行逻辑调用
 
 http://blog.csdn.net/h396071018/article/details/8268488
 
+
+
+
+SpringMVC对请求的整体处理流程
+https://www.cnblogs.com/hujiapeng/p/5765636.html
+
     */
 
 }
