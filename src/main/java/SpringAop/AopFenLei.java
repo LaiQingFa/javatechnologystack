@@ -15,5 +15,10 @@ https://yq.aliyun.com/articles/38884
 
 SpringAOP的调用流程
 http://blog.csdn.net/dreamthen/article/details/26687727
+
+SpringAOP自己的实现方式（代表人物ProxyFactoryBean）和借助aspectj实现方式区分
+http://www.codeweblog.com/spring-aop%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E4%B8%83-proxyfactorybean%E4%BB%8B%E7%BB%8D/
+
+
     */
 }
