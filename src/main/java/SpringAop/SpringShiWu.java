@@ -12,5 +12,9 @@ public class SpringShiWu {
     http://www.mamicode.com/info-detail-1248286.html
 
 
+       三种事务模型包含的角色以及各自的职责
+       https://www.cnblogs.com/aigongsi/archive/2012/10/09/2717372.html
+
+
     */
 }
