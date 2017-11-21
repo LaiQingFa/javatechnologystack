@@ -6,8 +6,8 @@ public class AopFenLei {
 
     http://www.bkjia.com/Javabc/1112074.html
 
-
-
+AOP联盟、aspectj、jboss AOP、Spring自身实现的AOP、Spring嵌入aspectj。
+http://www.codeweblog.com/spring-aop%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E4%B8%80-aop%E4%BB%8B%E7%BB%8D%E5%92%8Caspectj-springaop%E5%85%A5%E9%97%A8/
 
     */
 }
