@@ -11,5 +11,9 @@ http://www.codeweblog.com/spring-aop%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E4%B8%
 
 AOP联盟定义的概念或接口：Pointcut（概念，没有定义对应的接口）、Joinpoint、Advice、MethodInterceptor、MethodInvocation
 https://yq.aliyun.com/articles/38884
+
+
+SpringAOP的调用流程
+http://blog.csdn.net/dreamthen/article/details/26687727
     */
 }
