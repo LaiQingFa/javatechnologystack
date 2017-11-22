@@ -26,6 +26,8 @@ http://hwljj.blog.hexun.com/95993037_d.html
  Spring事务拦截器TransactionInterceptor全景
 http://lionelf.iteye.com/blog/905457
 
+    X/Open DTP模型,两阶段提交,JTA接口定义
+    https://www.cnblogs.com/gnodev/p/3817323.html
 
     */
 }
