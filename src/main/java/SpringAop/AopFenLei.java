@@ -23,5 +23,9 @@ http://www.codeweblog.com/spring-aop%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E4%B8%
 事务代码和业务代码分离的实现（AOP+ThreadLocal来实现）
 http://hwljj.blog.hexun.com/95993037_d.html
 
+ Spring事务拦截器TransactionInterceptor全景
+http://lionelf.iteye.com/blog/905457
+
+
     */
 }
