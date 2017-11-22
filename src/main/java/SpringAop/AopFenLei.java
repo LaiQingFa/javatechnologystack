@@ -20,5 +20,8 @@ SpringAOP自己的实现方式（代表人物ProxyFactoryBean）和借助aspectj
 http://www.codeweblog.com/spring-aop%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E4%B8%83-proxyfactorybean%E4%BB%8B%E7%BB%8D/
 
 
+事务代码和业务代码分离的实现（AOP+ThreadLocal来实现）
+http://hwljj.blog.hexun.com/95993037_d.html
+
     */
 }
