@@ -38,6 +38,10 @@ https://www.cnblogs.com/yuanfy008/p/4174340.html
 PROPAGATION_REQUIRES_NEW、PROPAGATION_NESTED的实现原理以及区别
 http://blog.csdn.net/paincupid/article/details/48185597
 
+事物的挂起和恢复的原理
+https://www.cnblogs.com/fjdingsd/p/5632949.html
+
+
 
     */
 }
