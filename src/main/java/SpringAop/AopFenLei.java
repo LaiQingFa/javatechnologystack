@@ -29,5 +29,7 @@ http://lionelf.iteye.com/blog/905457
     X/Open DTP模型,两阶段提交,JTA接口定义
     https://www.cnblogs.com/gnodev/p/3817323.html
 
+X/Open DTP模型,两阶段提交,JTA接口定义
+http://blog.csdn.net/liuxiao723846/article/details/43670181?locationNum=9
     */
 }
