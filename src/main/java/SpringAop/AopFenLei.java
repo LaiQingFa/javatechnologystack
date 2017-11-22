@@ -35,6 +35,9 @@ http://blog.csdn.net/liuxiao723846/article/details/43670181?locationNum=9
 事务的传播属性
 https://www.cnblogs.com/yuanfy008/p/4174340.html
 
+PROPAGATION_REQUIRES_NEW、PROPAGATION_NESTED的实现原理以及区别
+http://blog.csdn.net/paincupid/article/details/48185597
+
 
     */
 }
