@@ -8,8 +8,8 @@ public class DataBase_Better {
 Mysql数据库调优和性能优化
     http://blog.csdn.net/ning109314/article/details/9997867
 
-
-
+深入理解mysql的Record Locks、Gap Locks、Next-Key Locks
+http://blog.csdn.net/thekenofdis/article/details/54288894
 
 
 
