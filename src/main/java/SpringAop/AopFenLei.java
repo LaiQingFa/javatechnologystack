@@ -41,7 +41,8 @@ http://blog.csdn.net/paincupid/article/details/48185597
 事物的挂起和恢复的原理
 https://www.cnblogs.com/fjdingsd/p/5632949.html
 
-
+ 数据库隔离级别
+ https://www.cnblogs.com/fjdingsd/p/5273008.html
 
     */
 }
