@@ -17,7 +17,8 @@ http://blog.csdn.net/woshizhangliang999/article/details/53693967
 事务的ACID特性概念
 https://www.2cto.com/database/201612/570646.html
 
-
+innodb的MVCC理解
+https://www.cnblogs.com/chenpingzhao/p/5065316.html
 
     */
 }
