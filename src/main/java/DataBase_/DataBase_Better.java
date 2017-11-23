@@ -14,6 +14,8 @@ http://blog.csdn.net/thekenofdis/article/details/54288894
 insert into select语句的加锁情况
 http://blog.csdn.net/woshizhangliang999/article/details/53693967
 
+事务的ACID特性概念
+https://www.2cto.com/database/201612/570646.html
 
 
 
