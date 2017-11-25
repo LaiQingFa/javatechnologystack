@@ -12,6 +12,8 @@ http://blog.csdn.net/alexdamiao/article/details/51872477
 Undo和Redo以及牛逼的MVCC
 https://yq.aliyun.com/articles/53601
 
+MySQL binlog格式解析
+ http://www.jianshu.com/p/c16686b35807
 
 
 
