@@ -15,7 +15,8 @@ https://yq.aliyun.com/articles/53601
 MySQL binlog格式解析
  http://www.jianshu.com/p/c16686b35807
 
-
+mysql的checkpoint
+https://www.cnblogs.com/lintong/p/4381578.html
 
 
 
