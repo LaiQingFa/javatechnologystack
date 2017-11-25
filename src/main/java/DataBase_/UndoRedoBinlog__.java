@@ -9,8 +9,8 @@ undo redo 都可以实现持久化，他们的流程是什么？为什么选用r
 
 http://blog.csdn.net/alexdamiao/article/details/51872477
 
-
-
+Undo和Redo以及牛逼的MVCC
+https://yq.aliyun.com/articles/53601
 
 
 
