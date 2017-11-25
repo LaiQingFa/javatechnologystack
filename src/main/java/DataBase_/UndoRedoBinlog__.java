@@ -18,7 +18,8 @@ MySQL binlog格式解析
 mysql的checkpoint
 https://www.cnblogs.com/lintong/p/4381578.html
 
-
+ORM框架: mybatis、Hibernate
+最原始的jdbc->Spring的JdbcTemplate->hibernate->JPA->SpringDataJPA的演进之路
 
 
     */
