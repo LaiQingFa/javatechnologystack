@@ -1,0 +1,38 @@
+package DataBase_;
+
+public class HibernateCompareMybatis {
+/*
+
+Hibernate与 MyBatis的比较
+
+2017.12.27
+
+http://blog.csdn.net/firejuly/article/details/8190229
+
+Hibernate和MyBatis都有相应的代码生成工具。可以生成简单基本的DAO层方法;
+针对高级查询，Mybatis需要手动编写SQL语句，以及ResultMap。而Hibernate有良好的映射机制，开发者无需关心SQL的生成与结果映射，可以更专注于业务流程。
+
+Hibernate缓存
+Hibernate一级缓存是Session缓存，利用好一级缓存就需要对Session的生命周期进行管理好。建议在一个Action操作中使用一个Session。一级缓存需要对Session进行严格管理。
+
+Hibernate二级缓存是SessionFactory级的缓存。 SessionFactory的缓存分为内置缓存和外置缓存。
+内置缓存中存放的是SessionFactory对象的一些集合属性包含的数据(映射元素据及预定SQL语句等),
+对于应用程序来说,它是只读的。外置缓存中存放的是数据库数据的副本,其作用和一级缓存类似.
+二级缓存除了以内存作为存储介质外,还可以选用硬盘等外部存储设备。
+二级缓存称为进程级缓存或SessionFactory级缓存，它可以被所有session共享，
+它的生命周期伴随着SessionFactory的生命周期存在和消亡。
+
+
+两者相同点
+Hibernate与MyBatis都可以是通过SessionFactoryBuider由XML配置文件生成SessionFactory，然后由SessionFactory 生成Session，最后由Session来开启执行事务和SQL语句。其中SessionFactoryBuider，SessionFactory，Session的生命周期都是差不多的。
+Hibernate和MyBatis都支持JDBC和JTA事务处理。
+Mybatis优势
+MyBatis可以进行更为细致的SQL优化，可以减少查询字段。
+MyBatis容易掌握，而Hibernate门槛较高。
+Hibernate优势
+Hibernate的DAO层开发比MyBatis简单，Mybatis需要维护SQL和结果映射。
+Hibernate对对象的维护和缓存要比MyBatis好，对增删改查的对象的维护要方便。
+Hibernate数据库移植性很好，MyBatis的数据库移植性不好，不同的数据库需要写不同SQL。
+Hibernate有更好的二级缓存机制，可以使用第三方缓存。MyBatis本身提供的缓存机制不佳。
+    */
+}
